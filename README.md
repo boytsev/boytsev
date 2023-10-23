@@ -1,5 +1,5 @@
 # vCard - Personal portfolio
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+vCard is a personal portfolio website, built using only HTML, CSS, and JavaScript.
 
-## Original author ([codewithsadee](https://github.com/codewithsadee))
+## Original author - [codewithsadee](https://github.com/codewithsadee))
