@@ -837,7 +837,7 @@ main {
 }
 
 .job-logo {
-	width:40px;
+	width:65px;
 	height:40px; 
 	box-sizing: border-box; 
 	display:flex; 
@@ -845,7 +845,7 @@ main {
 }
 
 .job-logo img {
-	width:40px;
+	width:65px;
 	height:40px; 
 	margin-right:10px;
 }
@@ -861,7 +861,9 @@ main {
 	vertical-align: top; 
 	line-height: 15px; 
 	font-size: var(--fs-4);
+	text-align:left;
 }
+
 .job-city {
 	display:table-row; 
 	vertical-align: top; 
@@ -879,41 +881,17 @@ main {
   margin-left:15px;
 }
 
-/**
- * skills 
- */
-
-.skills-title { margin-bottom: 20px; }
-
-.skills-list { padding: 20px; }
-
-
-.skills-item:not(:last-child) { margin-bottom: 15px; }
-
-.skill .title-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 8px;
+.university-name {
+	display:table;
 }
 
-.skill .title-wrapper data {
-  color: var(--light-gray);
-  font-size: var(--fs-7);
-  font-weight: var(--fw-300);
-}
-
-.skill-progress-bg {
-  background: var(--jet);
-  width: 100%;
-  height: 8px;
-  border-radius: 10px;
-}
-
-.skill-progress-fill {
-  background: var(--text-gradient-yellow);
-  height: 100%;
-  border-radius: inherit;
+.university-text {
+	display:block;
+	vertical-align: top; 
+	line-height: 15px; 
+	font-size: var(--fs-4);
+	text-align:left;
+	width:500px;
 }
 
 
