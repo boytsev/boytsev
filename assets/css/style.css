@@ -127,7 +127,7 @@
 
 a { text-decoration: none; }
 
-li { list-style: none; }
+/*li { list-style: none; }*/
 
 img, ion-icon, a, button, time, span { display: block; }
 
@@ -473,6 +473,7 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+  list-style: none;
 }
 
 .navbar-link {
@@ -783,6 +784,7 @@ main {
 .timeline-list {
   font-size: var(--fs-6);
   margin-left: 45px;
+  list-style:none;
 }
 
 .timeline-item { position: relative; }
@@ -795,7 +797,7 @@ main {
   margin-bottom: 7px;
 }
 
-.timeline-list span {
+.timeline-list {
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
   line-height: 1.6;
@@ -829,6 +831,53 @@ main {
   line-height: 1.6;
 }
 
+.job-item {
+	box-sizing: border-box; 
+	display:block;
+}
+
+.job-logo {
+	width:40px;
+	height:40px; 
+	box-sizing: border-box; 
+	display:flex; 
+	text-align: center;
+}
+
+.job-logo img {
+	width:40px;
+	height:40px; 
+	margin-right:10px;
+}
+
+.job-name {
+	width:50px;
+	height:50px; 
+	display:table;
+}
+
+.job-text {
+	display:table-row; 
+	vertical-align: top; 
+	line-height: 15px; 
+	font-size: var(--fs-4);
+}
+.job-city {
+	display:table-row; 
+	vertical-align: top; 
+	text-align:left;
+}
+
+.timeline-duties-list {
+	list-style-type: " - ";
+}
+
+.timeline-duties-list-text {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-left:15px;
+}
 
 /**
  * skills 
@@ -1619,7 +1668,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     opacity: 0;
   }
 
-  .social-list { justify-content: center; }
+  .social-list { 
+	justify-content: center; 
+	list-style: none;
+  }
 
 
 
