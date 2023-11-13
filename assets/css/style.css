@@ -737,6 +737,9 @@ main {
 	width:500px;
 }
 
+.link a {
+  color: var(--vegas-gold);
+}
 
 /*-----------------------------------*\
   #CONTACT
